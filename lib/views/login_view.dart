@@ -5,6 +5,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 
 import '../bloc/app_bloc.dart';
+import '../dialogs/forgot_password_dialog.dart';
 
 class LoginView extends HookWidget {
   const LoginView({Key? key}) : super(key: key);
@@ -76,6 +77,7 @@ class LoginView extends HookWidget {
                 context.read<AppBloc>().add(
                   const AppEventGoToForgotPassword(),
                 );
+                showForgotPasswordDialog(context);
               },
               child: const Text(
                 'Forgot Password?!',

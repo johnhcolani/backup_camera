@@ -3,8 +3,8 @@ import 'package:backup_camera/extensions/if_debugging.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
-
 import '../bloc/app_bloc.dart';
+import '../dialogs/email_has_send_dialog.dart';
 
 class ForgotPassword extends HookWidget {
   const ForgotPassword({Key? key}) : super(key: key);
@@ -44,6 +44,7 @@ class ForgotPassword extends HookWidget {
 
                   ),
                 );
+                emailHasSentDialog(context);
               },
               child: const Text(
                 'Reset Password',
