@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "469498857618",
+    "project_id": "photogalery-2fc47",
+    "storage_bucket": "photogalery-2fc47.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:469498857618:android:e09d8a0d3c0e987c237e4b",
+        "android_client_info": {
+          "package_name": "com.example.backup_camera"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "469498857618-1db9uotafbp81udjvccimtqfbfnklen0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfJuoHOkogcehkdOu_l-xMJUaqMot1Fbo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "469498857618-1db9uotafbp81udjvccimtqfbfnklen0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "469498857618-5rbmfpbh2fv8pc58709edk4arrgnl4ns.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.firebasephotogalery"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:469498857618:android:cec7b1c2f3ba02a5237e4b",
+        "android_client_info": {
+          "package_name": "com.example.firebasephotogalery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "469498857618-1db9uotafbp81udjvccimtqfbfnklen0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfJuoHOkogcehkdOu_l-xMJUaqMot1Fbo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "469498857618-1db9uotafbp81udjvccimtqfbfnklen0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "469498857618-5rbmfpbh2fv8pc58709edk4arrgnl4ns.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.firebasephotogalery"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
